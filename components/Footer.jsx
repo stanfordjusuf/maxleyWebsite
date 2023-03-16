@@ -18,15 +18,15 @@ const Footer = () => (
           border="0"
         />
       </Link>
-      <Link href="/about">
-        <a href="#" className="link link-hover">About</a>
-      </Link>
+//       <Link href="/about">
+//         <a href="#" className="link link-hover">About</a>
+//       </Link>
     </div>
     <div className="justify-self-center">
-      <a href="#" style={{ color: 'black' }}>CONTACT</a>
+//       <a href="#" style={{ color: 'black' }}>CONTACT</a>
       <div className="grid grid-flow-col gap-4">
         <a href="https://www.instagram.com/maxleysuites/">
-//         svg here
+//         {svg here}
         </a>
         <a href="https://www.tiktok.com/@maxleysuites?_t=8aRWNgJ7DDm&_r=1">
           <svg
@@ -47,11 +47,11 @@ const Footer = () => (
           </svg>
         </a>
         <a href="https://api.whatsapp.com/send/?phone=6285852293500&text&type=phone_number&app_absent=0">
-//           svg here
+//           {svg here}
           <p>Lippo</p>
         </a>
         <a href="https://api.whatsapp.com/send/?phone=6288225924227&text&type=phone_number&app_absent=0">
-//           svg here
+//           {svg here}
           <p>BSD</p>
         </a>
         <a href="https://goo.gl/maps/SAxM51p66Yasbj2L9">
@@ -70,7 +70,11 @@ const Footer = () => (
       </div>
     </div>
     <div className="justify-self-center">
-      <a href="#" style={{ color: 'black' }}>FEEDBACK</a>
+      <Link href="/contact">
+        <a href="md:float-right mt-2 align-middle ml-4 font-semibold cursor-pointer">
+          Feedback
+        </a>
+      </Link>
       <a href="#" className="link link-hover">Customer service: 081227762299</a>
     </div>
   </footer>
