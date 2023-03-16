@@ -13,6 +13,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@graphcms/rich-text-react-renderer": "^0.6.1",
+    "@headlessui/react": "^1.7.13",
+    "bootstrap": "^5.2.3",
     "daisyui": "^2.45.0",
     "graphql": "^15.6.1",
     "graphql-request": "^3.5.0",
@@ -20,13 +23,17 @@
     "mdbootstrap": "^4.20.0",
     "moment": "^2.29.1",
     "next": "^12.2.5",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.7.2",
+    "react-dom": "^18.2.0",
+    "react-marker": "^1.0.1",
     "react-multi-carousel": "^2.6.5",
+    "react-router-dom": "^6.9.0",
     "sass": "^1.42.1",
     "swr": "^1.0.1"
   },
   "devDependencies": {
+    "@types/node": "18.15.0",
     "autoprefixer": "^10.3.6",
     "eslint": "^7.32.0",
     "eslint-config-airbnb": "^18.2.1",
