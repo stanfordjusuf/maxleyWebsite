@@ -146,6 +146,7 @@ function Hero() {
             <br />
             <Link href="/category/news">
               <button
+                type="button"
                 className="btn bg-transparent border-white w-32 text-white hover:text-white hover:bg-[#f86c0477]"
                 href="md:float-right mt-2 align-middle ml-4 font-semibold cursor-pointer"
               >
