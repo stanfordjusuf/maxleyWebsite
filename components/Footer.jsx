@@ -50,7 +50,6 @@ const Footer = () => (
           <p>Lippo</p>
         </a>
         <a href="https://api.whatsapp.com/send/?phone=6288225924227&text&type=phone_number&app_absent=0">
-//           {svg here}
           <p>BSD</p>
         </a>
         <a href="https://goo.gl/maps/SAxM51p66Yasbj2L9">
