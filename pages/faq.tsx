@@ -7,7 +7,7 @@ export default function faq() {
       <div className="w-full px-4 pt-16">
         <div className="w-full max-w-md p-2 mx-auto bg-white rounded-2xl">
           <h1>Frequently Asked Questions</h1>
-          <br/>
+          <br />
           <Disclosure>
             {({ open }) => (
               <>
@@ -37,7 +37,7 @@ export default function faq() {
               </>
             )}
           </Disclosure>
-          <br/>
+          <br />
           <Disclosure>
             {({ open }) => (
               <>
@@ -66,7 +66,7 @@ export default function faq() {
               </>
             )}
           </Disclosure>
-          <br/>
+          <br />
           <Disclosure>
             {({ open }) => (
               <>
@@ -95,7 +95,7 @@ export default function faq() {
               </>
             )}
           </Disclosure>
-          <br/>
+          <br />
           <Disclosure>
             {({ open }) => (
               <>
@@ -125,7 +125,7 @@ export default function faq() {
               </>
             )}
           </Disclosure>
-          <br/>
+          <br />
           <Disclosure>
             {({ open }) => (
               <>
@@ -157,7 +157,7 @@ export default function faq() {
               </>
             )}
           </Disclosure>
-          <br/>
+          <br />
           <Disclosure>
             {({ open }) => (
               <>
@@ -188,7 +188,7 @@ export default function faq() {
               </>
             )}
           </Disclosure>
-          <br/>
+          <br />
           <Disclosure>
             {({ open }) => (
               <>
