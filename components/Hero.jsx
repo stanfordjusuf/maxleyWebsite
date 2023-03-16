@@ -1,6 +1,6 @@
-import React from "react";
-import Link from "next/link";
-import { Anchor } from "react-bootstrap";
+import React from 'react';
+import Link from 'next/link';
+import { Anchor } from 'react-bootstrap';
 
 function Hero() {
   return (
@@ -16,18 +16,19 @@ function Hero() {
               <div className="flex flex-col absolute items-center w-full h-full justify-center -z-50">
                 <h1
                   className="text-4xl text-center md:text-6xl font-bold"
-                  style={{ color: "white" }}
+                  style={{ color: 'white' }}
                 >
                   #livingwithmaxley
                 </h1>
-                <h1 className="text-3xl text-center" style={{ color: "white" }}>
+                <h1 className="text-3xl text-center" style={{ color: 'white' }}>
                   Hotel & Lodging
                 </h1>
                 <div className="flex flex-row mt-4 flex-wrap">
                   <Link href="/about">
                     <button
+                      type="button"
                       className="btn btn-outline"
-                      style={{ color: "black" }}
+                      style={{ color: 'black' }}
                     >
                       About Us
                     </button>
@@ -35,8 +36,9 @@ function Hero() {
                   <Anchor>
                     <Link href="#contact">
                       <button
+                        type="button"
                         className="btn btn-ghost"
-                        style={{ color: "black" }}
+                        style={{ color: 'black' }}
                       >
                         Contact Us
                       </button>
@@ -53,61 +55,59 @@ function Hero() {
           <div id="promotion1" className="carousel-item relative w-full">
             <h1
               className="text-4xl text-center font-bold w-3/4 md:text-6xl"
-              style={{ color: "white" }}
+              style={{ color: 'white' }}
             >
-              <br></br>
-              <br></br>
-              <br></br>
-              <br></br>
-              <br></br>
+              <br/>
+              <br/>
+              <br/>
+              <br/>
+              <br/>
               Group Package Promo!!! Invite your friends to live at Maxley!
             </h1>
             <iframe
+              title="iframetwo"
               src="https://streamable.com/e/5ttmo8"
               style={{
-                borderRadius: "5%",
-                paddingTop: "10px",
-                paddingBottom: "10px",
-                paddingRight: "10px",
-                paddingLeft: "10px",
+                borderRadius: '5%',
+                paddingTop: '10px',
+                paddingBottom: '10px',
+                paddingRight: '10px',
+                paddingLeft: '10px',
               }}
               width="100%"
               height="100%"
               allowfullscreen
               autoPlay
-              muted
-              loop
-            ></iframe>
+            />
           </div>
           <div id="promotion2" className="carousel-item relative w-full">
             <h1
               className="text-4xl text-center font-bold w-3/4 md:text-6xl"
               style={{ color: "white" }}
             >
-              <br></br>
-              <br></br>
-              <br></br>
-              <br></br>
-              <br></br>
+              <br/>
+              <br/>
+              <br/>
+              <br/>
+              <br/>
               Get FREE Merchandise SUGA BTS & Doorprize Lightstick BTS for
               ARMY!!!
             </h1>
             <iframe
+              title="iframethree"
               src="https://streamable.com/e/20kb55"
               style={{
-                borderRadius: "5%",
-                paddingTop: "10px",
-                paddingBottom: "10px",
-                paddingRight: "10px",
-                paddingLeft: "10px",
+                borderRadius: '5%',
+                paddingTop: '10px',
+                paddingBottom: '10px',
+                paddingRight: '10px',
+                paddingLeft: '10px',
               }}
               width="100%"
               height="100%"
               allowfullscreen
               autoPlay
-              muted
-              loop
-            ></iframe>
+            />
           </div>
         </div>
         <div>
@@ -119,16 +119,16 @@ function Hero() {
                   Services
                 </a>
               </Link>
-              <br></br>
+              <br/>
             </div>
             <div className='relative text-center flex-1 flex flex-col justify-center items-center p-6  bg-cover bg-[url("https://i.ibb.co/xmpsYpR/Billiard.jpg")]'>
               <div className="min-w-full h-full bg-[#f86c04] opacity-30 absolute"></div>
               <Link href="/about">
-                <a className="text-6xl text-white z-[3] underline decoration-[#f86c04] cursor-pointer">
+                <a href="#" className="text-6xl text-white z-[3] underline decoration-[#f86c04] cursor-pointer">
                   About
                 </a>
               </Link>
-              <br></br>
+              <br/>
             </div>
           </div>
         </div>
@@ -137,9 +137,9 @@ function Hero() {
             <h1 className="text-4xl font-bold text-white">
               You can find the latest information or events about Maxley here!
             </h1>
-            <br></br>
+            <br/>
             <Link href="/category/news">
-              <button className="btn bg-transparent border-white w-32 text-white hover:text-white hover:bg-[#f86c0477]">
+              <button href="#" className="btn bg-transparent border-white w-32 text-white hover:text-white hover:bg-[#f86c0477]">
                 Go to News
               </button>
             </Link>
@@ -154,7 +154,7 @@ function Hero() {
               </h1>
               <br></br>
               <p className="text-xl">
-                Email:{" "}
+                Email:{' '}
                 <a
                   href="mailto:maxleysuites@gmail.com"
                   className="hover:underline"
@@ -163,7 +163,7 @@ function Hero() {
                 </a>
               </p>
               <p className="text-xl">
-                BSD:{" "}
+                BSD:{' '}
                 <a
                   href="https://wa.me/+6288225924227"
                   className="hover:underline"
@@ -172,7 +172,7 @@ function Hero() {
                 </a>
               </p>
               <p className="text-xl">
-                Lippo:{" "}
+                Lippo:{' '}
                 <a
                   href="https://wa.me/+6285852293500"
                   className="hover:underline"
@@ -181,7 +181,7 @@ function Hero() {
                 </a>
               </p>
               <p className="text-xl">
-                Customer Service and Feedback:{" "}
+                Customer Service and Feedback:{' '}
                 <a
                   href="https://wa.me/+6281227762299"
                   className="hover:underline"
@@ -192,26 +192,27 @@ function Hero() {
               <p className="text-xl font-bold">
                 Operational Hours: 09.00 - 17.00 WIB
               </p>
-              <br></br>
+              <br/>
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3965.7040026826317!2d106.6365915!3d-6.302568!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69fb52573b01af%3A0x2c7f226871efd55c!2sMaxley%20Suites!5e0!3m2!1sen!2sid!4v1678791900340!5m2!1sen!2sid"
+                title="iframefour"
+                src="shorturl.at/oxAJQ"
                 width="600"
                 height="450"
                 style={{ border: 0 }}
                 allowFullScreen=""
                 loading="lazy"
               ></iframe>
-              <br></br>
+              <br/>
             </div>
           </div>
         </div>
       </div>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
     </>
   );
 }
