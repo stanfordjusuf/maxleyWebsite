@@ -5,12 +5,12 @@ export default function contact() {
     <>
       <div>
         <div className="section about-section flex flex-wrap">
-          <div className="basis-1/3 bg-gray-800 flex-1 contact-panel"/>
+          <div className="basis-1/3 bg-gray-800 flex-1 contact-panel" />
           <div id="contact" className="basis-2/3 flex-1 p-3">
             <h1 className="text-6xl font-bold underline decoration-[#f86c04]">
               Contact Us
             </h1>
-            <br/>
+            <br />
             <p className="text-xl">
               Email:{' '}
               <a
@@ -50,7 +50,7 @@ export default function contact() {
             <p className="text-xl font-bold">
               Operational Hours: 09.00 - 17.00 WIB
             </p>
-            <br/>
+            <br />
             <iframe
               title="iframe_one"
               src="shorturl.at/jmzY1"
@@ -59,15 +59,15 @@ export default function contact() {
               style={{ border: 0 }}
               loading="lazy"
             />
-            <br/>
+            <br />
           </div>
         </div>
       </div>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
     </>
   );
 }
