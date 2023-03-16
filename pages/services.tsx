@@ -3,18 +3,18 @@ import React from 'react';
 export default function services() {
   return (
     <>
-      <br/>
+      <br />
       <div>
         <h1 className="text-4xl font-bold underline decoration-[#f86c04] text-center">
           Services
         </h1>
-        <br/>
+        <br />
         <div className="grid lg:grid-cols-2 w-screen md:grid-cols-1">
           <div className="flex flex-col items-center">
             <div className="card w-3/4 bg-base-100 shadow-xl h-3/4">
               <figure className="h-2/3">
                 <img
-                  src='https://i.ibb.co/RjqLvsq/DSC-5809-HDR.jpg'
+                  src="https://i.ibb.co/RjqLvsq/DSC-5809-HDR.jpg"
                   alt="rooms"
                 />
               </figure>
@@ -43,7 +43,7 @@ export default function services() {
             <div className="card w-3/4 bg-base-100 shadow-xl h-3/4">
               <figure className="h-2/3">
                 <img
-                  src='https://i.ibb.co/t4qz3SR/Study-Room.jpg'
+                  src="https://i.ibb.co/t4qz3SR/Study-Room.jpg"
                   alt="facilities"
                   className=""
                 />
