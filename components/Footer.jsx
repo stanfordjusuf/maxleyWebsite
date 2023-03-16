@@ -47,7 +47,6 @@ const Footer = () => (
           </svg>
         </a>
         <a href="https://api.whatsapp.com/send/?phone=6285852293500&text&type=phone_number&app_absent=0">
-//           {svg here}
           <p>Lippo</p>
         </a>
         <a href="https://api.whatsapp.com/send/?phone=6288225924227&text&type=phone_number&app_absent=0">
