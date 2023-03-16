@@ -1,5 +1,5 @@
-import React from "react";
-import { Disclosure } from "@headlessui/react";
+import React from 'react';
+import { Disclosure } from '@headlessui/react';
 
 export default function faq() {
   return (
@@ -7,11 +7,11 @@ export default function faq() {
       <div className="w-full px-4 pt-16">
         <div className="w-full max-w-md p-2 mx-auto bg-white rounded-2xl">
           <h1>Frequently Asked Questions</h1>
-          <br></br>
+          <br/>
           <Disclosure>
             {({ open }) => (
               <>
-                <Disclosure.Button className="flex justify-between w-full px-4 py-2 text-sm font-medium text-left text-purple-900 bg-orange-100 rounded-lg hover:bg-orange-200 focus:outline-none focus-visible:ring focus-visible:ring-orange-500 focus-visible:ring-opacity-75">
+                <Disclosure.Button className="flex justify-between w-full px-4 py-2 text-sm font-medium text-left text-purple-900 bg-orange-100 rounded-lg">
                   <span>Apakah Maxley menerima sewa harian?</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -20,7 +20,7 @@ export default function faq() {
                     strokeWidth={1.5}
                     stroke="currentColor"
                     className={`${
-                      open ? "rotate-180 transform" : ""
+                      open ? 'rotate-180 transform' : ''
                     } h-5 w-5 text-orange-500`}
                   >
                     <path
@@ -37,11 +37,11 @@ export default function faq() {
               </>
             )}
           </Disclosure>
-          <br></br>
+          <br/>
           <Disclosure>
             {({ open }) => (
               <>
-                <Disclosure.Button className="flex justify-between w-full px-4 py-2 text-sm font-medium text-left text-purple-900 bg-orange-100 rounded-lg hover:bg-orange-200 focus:outline-none focus-visible:ring focus-visible:ring-orange-500 focus-visible:ring-opacity-75">
+                <Disclosure.Button className="flex justify-between w-full px-4 py-2 text-sm font-medium text-left text-purple-900 bg-orange-100 rounded-lg">
                   <span>Berapa maximal kapasitas Penyewa?</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -50,7 +50,7 @@ export default function faq() {
                     strokeWidth={1.5}
                     stroke="currentColor"
                     className={`${
-                      open ? "rotate-180 transform" : ""
+                      open ? 'rotate-180 transform' : ''
                     } h-5 w-5 text-orange-500`}
                   >
                     <path
@@ -66,12 +66,11 @@ export default function faq() {
               </>
             )}
           </Disclosure>
-          <br></br>
+          <br/>
           <Disclosure>
             {({ open }) => (
               <>
-                <Disclosure.Button className="flex justify-between w-full px-4 py-2 text-sm font-medium text-left text-purple-900 bg-orange-100 rounded-lg hover:bg-orange-200 focus:outline-none focus-visible:ring focus-visible:ring-orange-500 focus-visible:ring-opacity-75">
-                  <span>Apakah Maxley menerima Penyewa selain Mahasiswa?</span>
+                <Disclosure.Button className="flex justify-between w-full px-4 py-2 text-sm font-medium text-left text-purple-900 bg-orange-100 rounded-lg">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -79,7 +78,7 @@ export default function faq() {
                     strokeWidth={1.5}
                     stroke="currentColor"
                     className={`${
-                      open ? "rotate-180 transform" : ""
+                      open ? 'rotate-180 transform' : ''
                     } h-5 w-5 text-orange-500`}
                   >
                     <path
@@ -96,11 +95,11 @@ export default function faq() {
               </>
             )}
           </Disclosure>
-          <br></br>
+          <br/>
           <Disclosure>
             {({ open }) => (
               <>
-                <Disclosure.Button className="flex justify-between w-full px-4 py-2 text-sm font-medium text-left text-purple-900 bg-orange-100 rounded-lg hover:bg-orange-200 focus:outline-none focus-visible:ring focus-visible:ring-orange-500 focus-visible:ring-opacity-75">
+                <Disclosure.Button className="flex justify-between w-full px-4 py-2 text-sm font-medium text-left text-purple-900 bg-orange-100 rounded-lg">
                   <span>Apakah ada batas waktu kunjungan Tamu?</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -109,7 +108,7 @@ export default function faq() {
                     strokeWidth={1.5}
                     stroke="currentColor"
                     className={`${
-                      open ? "rotate-180 transform" : ""
+                      open ? 'rotate-180 transform' : ''
                     } h-5 w-5 text-orange-500`}
                   >
                     <path
@@ -126,11 +125,11 @@ export default function faq() {
               </>
             )}
           </Disclosure>
-          <br></br>
+          <br/>
           <Disclosure>
             {({ open }) => (
               <>
-                <Disclosure.Button className="flex justify-between w-full px-4 py-2 text-sm font-medium text-left text-purple-900 bg-orange-100 rounded-lg hover:bg-orange-200 focus:outline-none focus-visible:ring focus-visible:ring-orange-500 focus-visible:ring-opacity-75">
+                <Disclosure.Button className="flex justify-between w-full px-4 py-2 text-sm font-medium text-left text-purple-900 bg-orange-100 rounded-lg">
                   <span>
                     Apakah Penyewa diperbolehkan membawa tamu kedalam kamar?
                   </span>
@@ -141,7 +140,7 @@ export default function faq() {
                     strokeWidth={1.5}
                     stroke="currentColor"
                     className={`${
-                      open ? "rotate-180 transform" : ""
+                      open ? 'rotate-180 transform' : ''
                     } h-5 w-5 text-orange-500`}
                   >
                     <path
@@ -158,11 +157,11 @@ export default function faq() {
               </>
             )}
           </Disclosure>
-          <br></br>
+          <br/>
           <Disclosure>
             {({ open }) => (
               <>
-                <Disclosure.Button className="flex justify-between w-full px-4 py-2 text-sm font-medium text-left text-purple-900 bg-orange-100 rounded-lg hover:bg-orange-200 focus:outline-none focus-visible:ring focus-visible:ring-orange-500 focus-visible:ring-opacity-75">
+                <Disclosure.Button className="flex justify-between w-full px-4 py-2 text-sm font-medium text-left text-purple-900 bg-orange-100 rounded-lg">
                   <span>
                     Apakah Penyewa diperbolehkan membawa hewan peliharaan?
                   </span>
@@ -173,7 +172,7 @@ export default function faq() {
                     strokeWidth={1.5}
                     stroke="currentColor"
                     className={`${
-                      open ? "rotate-180 transform" : ""
+                      open ? 'rotate-180 transform' : ''
                     } h-5 w-5 text-orange-500`}
                   >
                     <path
@@ -189,11 +188,11 @@ export default function faq() {
               </>
             )}
           </Disclosure>
-          <br></br>
+          <br/>
           <Disclosure>
             {({ open }) => (
               <>
-                <Disclosure.Button className="flex justify-between w-full px-4 py-2 text-sm font-medium text-left text-purple-900 bg-orange-100 rounded-lg hover:bg-orange-200 focus:outline-none focus-visible:ring focus-visible:ring-orange-500 focus-visible:ring-opacity-75">
+                <Disclosure.Button className="flex justify-between w-full px-4 py-2 text-sm font-medium text-left text-purple-900 bg-orange-100 rounded-lg">
                   <span>
                     Apakah Penyewa mendapatkan Cleaning Room setiap hari?
                   </span>
@@ -204,7 +203,7 @@ export default function faq() {
                     strokeWidth={1.5}
                     stroke="currentColor"
                     className={`${
-                      open ? "rotate-180 transform" : ""
+                      open ? 'rotate-180 transform' : ''
                     } h-5 w-5 text-orange-500`}
                   >
                     <path
