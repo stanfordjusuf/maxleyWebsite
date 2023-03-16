@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect } from 'react';
 
-import Link from "next/link";
-import { getCategories } from "../services";
+import Link from 'next/link';
+import { getCategories } from '../services';
 
 const Header = () => {
   const [categories, setCategories] = useState([]);
@@ -15,7 +15,7 @@ const Header = () => {
   return (
     <div
       className="navbar sticky top-0 z-50 shadow"
-      style={{ background: "#FFFFFF" }}
+      style={{ background: '#FFFFFF' }}
     >
       <div className="navbar-start">
         <div className="dropdown">
@@ -43,7 +43,7 @@ const Header = () => {
             type="button"
             tabIndex={0}
             className="menu menu-compact dropdown-content mt-3 p-2 shadow rounded-box w-52"
-            style={{ background: "#f9f2ed" }}
+            style={{ background: '#f9f2ed' }}
           >
             <ul>
               <li className="text-black">
@@ -57,16 +57,14 @@ const Header = () => {
                     About
                   </a>
                 </Link>
-                <Link href="/category/news">
-                  <a href="md:float-right mt-2 align-middle ml-4 font-semibold cursor-pointer">
-                    News
-                  </a>
-                </Link>
-                <Link href="/category/promotions">
-                  <a href="md:float-right mt-2 align-middle ml-4 font-semibold cursor-pointer">
-                    Promotion
-                  </a>
-                </Link>
+                <p>Blog</p>
+                {categories.map((category, index) => (
+                  <Link key={index} href={`/category/${category.slug}`}>
+                    <span className="md:float-right mt-2 align-middle text-orange ml-4 font-semibold cursor-pointer">
+                      {category.name}
+                    </span>
+                  </Link>
+                ))}
                 <Link href="/faq">
                   <a href="md:float-right mt-2 align-middle ml-4 font-semibold cursor-pointer">
                     FAQ
@@ -152,7 +150,7 @@ const Header = () => {
         <a
           href="https://linktr.ee/maxleysuites"
           className="btn glass text-black"
-          style={{ background: "#f86c04" }}
+          style={{ background: '#f86c04' }}
         >
           Book Now
         </a>
