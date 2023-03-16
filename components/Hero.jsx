@@ -156,9 +156,9 @@ function Hero() {
           </div>
         </div>
         <div>
-          <div className="section about-section flex flex-wrap">
-            <div className="basis-1/3 bg-gray-800 flex-1 contact-panel" />
-            <div id="contact" className="basis-2/3 flex-1 p-3">
+          <div className="section grid lg:grid-cols-3 md:grid-cols-1">
+            <div className="col-span-1 bg-gray-800 contact-panel" />
+            <div id="contact" className="col-span-2 flex-1 p-3">
               <h1 className="text-6xl font-bold underline decoration-[#f86c04]">
                 Contact Us
               </h1>
