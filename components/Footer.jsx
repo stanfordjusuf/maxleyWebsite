@@ -26,7 +26,7 @@ const Footer = () => (
 //       <a href="#" style={{ color: 'black' }}>CONTACT</a>
       <div className="grid grid-flow-col gap-4">
         <a href="https://www.instagram.com/maxleysuites/">
-//         {svg here}
+          Instagram
         </a>
         <a href="https://www.tiktok.com/@maxleysuites?_t=8aRWNgJ7DDm&_r=1">
           <svg
