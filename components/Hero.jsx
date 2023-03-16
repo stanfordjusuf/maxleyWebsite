@@ -203,15 +203,6 @@ function Hero() {
                 Operational Hours: 09.00 - 17.00 WIB
               </p>
               <br />
-              <iframe
-                title="iframefour"
-                src="shorturl.at/gnFM4"
-                width="600"
-                height="450"
-                style={{ border: 0 }}
-                allowFullScreen=""
-                loading="lazy"
-              />
               <br />
             </div>
           </div>
