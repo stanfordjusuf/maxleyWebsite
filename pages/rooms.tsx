@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react';
 
 export default function rooms() {
   return (
     <>
-      <br></br>
+      <br/>
       <div>
         <h1 className="text-4xl underline decoration-[#f86c04] font-bold text-center">
           Rooms
@@ -13,7 +13,7 @@ export default function rooms() {
             <div className="card lg:card-side bg-base-100 shadow-xl">
               <figure className="lg:w-1/3 md:w-full">
                 <img
-                  src={"https://i.ibb.co/C54L36G/Single-Bed.jpg"}
+                  src='https://i.ibb.co/C54L36G/Single-Bed.jpg'
                   alt="single bed"
                 />
               </figure>
@@ -21,8 +21,8 @@ export default function rooms() {
                 <h2 className="card-title text-2xl underline decoration-[#f86c04]">
                   Single Bed
                 </h2>
-                <div style={{ color: "white" }}>
-                  <p className="text-lg font-bold" style={{ color: "orange" }}>
+                <div style={{ color: 'white' }}>
+                  <p className="text-lg font-bold" style={{ color: 'orange' }}>
                     Description:
                   </p>
                   <ul className="text-lg">
@@ -46,7 +46,7 @@ export default function rooms() {
             <div className="card lg:card-side bg-base-100 shadow-xl">
               <figure className="lg:w-1/3 md:w-full">
                 <img
-                  src={"https://i.ibb.co/3WSs9sm/IMG-4634.jpg"}
+                  src='https://i.ibb.co/3WSs9sm/IMG-4634.jpg'
                   alt="double bed"
                 />
               </figure>
@@ -54,8 +54,8 @@ export default function rooms() {
                 <h2 className="card-title text-2xl underline decoration-[#f86c04]">
                   Double Bed
                 </h2>
-                <div style={{ color: "white" }}>
-                  <p className="text-lg font-bold" style={{ color: "orange" }}>
+                <div style={{ color: 'white' }}>
+                  <p className="text-lg font-bold" style={{ color: 'orange' }}>
                     Description:
                   </p>
                   <ul className="text-lg">
@@ -80,7 +80,7 @@ export default function rooms() {
             <div className="card lg:card-side bg-base-100 shadow-xl">
               <figure className="lg:w-1/3 md:w-full">
                 <img
-                  src={"https://i.ibb.co/yYjYqM4/DSC-5818-HDR.jpg"}
+                  src='https://i.ibb.co/yYjYqM4/DSC-5818-HDR.jpg'
                   alt="double bed"
                 />
               </figure>
@@ -88,8 +88,8 @@ export default function rooms() {
                 <h2 className="card-title text-2xl underline decoration-[#f86c04]">
                   Suite Room
                 </h2>
-                <div style={{ color: "white" }}>
-                  <p className="text-lg font-bold" style={{ color: "orange" }}>
+                <div style={{ color: 'white' }}>
+                  <p className="text-lg font-bold" style={{ color: 'orange' }}>
                     Description:
                   </p>
                   <ul className="text-lg">
