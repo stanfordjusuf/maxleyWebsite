@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 export default function services() {
   return (
@@ -28,13 +29,15 @@ export default function services() {
                   kampus.
                 </p>
                 <div className="card-actions justify-end">
-                  <button
-                    type="button"
-                    className="btn bg-[#f86c04]"
-                    style={{ color: 'black' }}
-                  >
-                    Explore
-                  </button>
+                  <Link href="/rooms">
+                    <button
+                      type="button"
+                      className="btn bg-[#f86c04]"
+                      style={{ color: 'black' }}
+                    >
+                      Explore
+                    </button>
+                  </Link>
                 </div>
               </div>
             </div>
