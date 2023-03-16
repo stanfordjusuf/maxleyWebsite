@@ -5,7 +5,7 @@ export default function about() {
     <div className="grid md:grid-cols-1 lg:grid-cols-2 h-screen">
       <div className="bg-black">
         <img
-          src='https://i.ibb.co/3CcL9SB/Living-Room.jpg'
+          src="https://i.ibb.co/3CcL9SB/Living-Room.jpg"
           className="h-full"
         />
       </div>
@@ -14,7 +14,7 @@ export default function about() {
           <h1 className="text-4xl font-bold ">Our Story</h1>
         </div>
 
-        <br/>
+        <br />
         <p className="text-md shrink min-w-min">
           Maxley adalah sebuah Student Dormitory yang berdiri sejak tahun 2015,
           terletak di Edutown, seberang Universitas Prasetya Mulya, sudah
@@ -26,7 +26,7 @@ export default function about() {
           menerima tamu sewa seperti Karyawan/ Staff dan Daily Rent sesuai
           dengan ketentuan yang berlaku.
         </p>
-        <br/>
+        <br />
         <a
           href="https://www.tiktok.com/@maxleysuites?_t=8aRWNgJ7DDm&_r=1"
           className="btn bg-[#f86c04]"
