@@ -57,11 +57,11 @@ function Hero() {
               className="text-4xl text-center font-bold w-3/4 md:text-6xl"
               style={{ color: 'white' }}
             >
-              <br/>
-              <br/>
-              <br/>
-              <br/>
-              <br/>
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
               Group Package Promo!!! Invite your friends to live at Maxley!
             </h1>
             <iframe
@@ -83,13 +83,13 @@ function Hero() {
           <div id="promotion2" className="carousel-item relative w-full">
             <h1
               className="text-4xl text-center font-bold w-3/4 md:text-6xl"
-              style={{ color: "white" }}
+              style={{ color: 'white' }}
             >
-              <br/>
-              <br/>
-              <br/>
-              <br/>
-              <br/>
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
               Get FREE Merchandise SUGA BTS & Doorprize Lightstick BTS for
               ARMY!!!
             </h1>
@@ -113,22 +113,28 @@ function Hero() {
         <div>
           <div className="section about-section grid md:grid-cols-1 md:h-screen lg:grid-cols-2 w-full">
             <div className='relative text-center justify-center items-center flex flex-col flex-1 bg-cover bg-[url("https://i.ibb.co/yYZ6rj5/Gym.jpg")] '>
-              <div className="min-w-full h-full bg-[#f86c04] opacity-30 absolute"></div>
+              <div className="min-w-full h-full bg-[#f86c04] opacity-30 absolute" />
               <Link href="/services">
-                <a className="text-6xl text-white z-[3] underline decoration-[#f86c04] cursor-pointer">
+                <a
+                  href="md:float-right mt-2 align-middle ml-4 font-semibold cursor-pointer"
+                  className="text-6xl text-white z-[3] underline decoration-[#f86c04] cursor-pointer"
+                >
                   Services
                 </a>
               </Link>
-              <br/>
+              <br />
             </div>
             <div className='relative text-center flex-1 flex flex-col justify-center items-center p-6  bg-cover bg-[url("https://i.ibb.co/xmpsYpR/Billiard.jpg")]'>
-              <div className="min-w-full h-full bg-[#f86c04] opacity-30 absolute"></div>
+              <div className="min-w-full h-full bg-[#f86c04] opacity-30 absolute" />
               <Link href="/about">
-                <a href="#" className="text-6xl text-white z-[3] underline decoration-[#f86c04] cursor-pointer">
+                <a
+                  className="text-6xl text-white z-[3] underline decoration-[#f86c04] cursor-pointer"
+                  href="md:float-right mt-2 align-middle ml-4 font-semibold cursor-pointer"
+                >
                   About
                 </a>
               </Link>
-              <br/>
+              <br />
             </div>
           </div>
         </div>
@@ -137,9 +143,12 @@ function Hero() {
             <h1 className="text-4xl font-bold text-white">
               You can find the latest information or events about Maxley here!
             </h1>
-            <br/>
+            <br />
             <Link href="/category/news">
-              <button href="#" className="btn bg-transparent border-white w-32 text-white hover:text-white hover:bg-[#f86c0477]">
+              <button
+                className="btn bg-transparent border-white w-32 text-white hover:text-white hover:bg-[#f86c0477]"
+                href="md:float-right mt-2 align-middle ml-4 font-semibold cursor-pointer"
+              >
                 Go to News
               </button>
             </Link>
@@ -147,12 +156,12 @@ function Hero() {
         </div>
         <div>
           <div className="section about-section flex flex-wrap">
-            <div className="basis-1/3 bg-gray-800 flex-1 contact-panel"></div>
+            <div className="basis-1/3 bg-gray-800 flex-1 contact-panel" />
             <div id="contact" className="basis-2/3 flex-1 p-3">
               <h1 className="text-6xl font-bold underline decoration-[#f86c04]">
                 Contact Us
               </h1>
-              <br></br>
+              <br />
               <p className="text-xl">
                 Email:{' '}
                 <a
@@ -192,7 +201,7 @@ function Hero() {
               <p className="text-xl font-bold">
                 Operational Hours: 09.00 - 17.00 WIB
               </p>
-              <br/>
+              <br />
               <iframe
                 title="iframefour"
                 src="shorturl.at/oxAJQ"
@@ -201,18 +210,18 @@ function Hero() {
                 style={{ border: 0 }}
                 allowFullScreen=""
                 loading="lazy"
-              ></iframe>
-              <br/>
+              />
+              <br />
             </div>
           </div>
         </div>
       </div>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
     </>
   );
 }
