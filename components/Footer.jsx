@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from "next/link";
+import Link from 'next/link';
 
 const Footer = () => (
   <footer
@@ -78,7 +78,11 @@ const Footer = () => (
       </div>
     </div>
     <div className="justify-self-center">
-      <a style={{ color: 'black' }}>FEEDBACK</a>
+      <Link href="/contact">
+        <a href="md:float-right mt-2 align-middle ml-4 font-semibold cursor-pointer">
+          Feedback
+        </a>
+      </Link>
       <a className="link link-hover">Customer service: 081227762299</a>
     </div>
   </footer>
