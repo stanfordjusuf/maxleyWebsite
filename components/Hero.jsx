@@ -1,12 +1,12 @@
-import React from 'react';
-import Link from 'next/link';
+import React from "react";
+import Link from "next/link";
 
 function Hero() {
   return (
     <>
-       <div className="carousel w-full">
-      <div id="slide1" className="carousel-item relative w-full">
-         <img
+      <div className="carousel w-full">
+        <div id="slide1" className="carousel-item relative w-full">
+          <img
             src="https://i.ibb.co/M1C2TsP/main-Hero-Poster-Maxley-3.png"
             className="w-full"
           />
@@ -20,7 +20,7 @@ function Hero() {
           </div>
         </div>
         <div id="slide2" className="carousel-item relative w-full">
-         <iframe
+          <iframe
             title="iframe1"
             src="https://streamable.com/e/bo5i5t"
             width="100%"
@@ -38,7 +38,7 @@ function Hero() {
           </div>
         </div>
         <div id="slide3" className="carousel-item relative w-full">
-         <iframe
+          <iframe
             title="iframetwo"
             src="https://streamable.com/e/mzr200"
             width="100%"
@@ -111,7 +111,7 @@ function Hero() {
               </h1>
               <br />
               <p className="text-xl">
-                Email:{' '}
+                Email:{" "}
                 <a
                   href="mailto:maxleysuites@gmail.com"
                   className="hover:underline"
@@ -120,7 +120,7 @@ function Hero() {
                 </a>
               </p>
               <p className="text-xl">
-                BSD:{' '}
+                BSD:{" "}
                 <a
                   href="https://wa.me/+6288225924227"
                   className="hover:underline"
@@ -129,7 +129,7 @@ function Hero() {
                 </a>
               </p>
               <p className="text-xl">
-                Lippo:{' '}
+                Lippo:{" "}
                 <a
                   href="https://wa.me/+6285852293500"
                   className="hover:underline"
@@ -138,7 +138,7 @@ function Hero() {
                 </a>
               </p>
               <p className="text-xl">
-                Customer Service and Feedback:{' '}
+                Customer Service and Feedback:{" "}
                 <a
                   href="https://wa.me/+6281227762299"
                   className="hover:underline"
