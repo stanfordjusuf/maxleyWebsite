@@ -1,13 +1,12 @@
 import React from 'react';
 import Link from 'next/link';
-import { Anchor } from 'react-bootstrap';
 
 function Hero() {
   return (
     <>
        <div className="carousel w-full">
-        <div id="slide1" className="carousel-item relative w-full">
-          <img
+      <div id="slide1" className="carousel-item relative w-full">
+         <img
             src="https://i.ibb.co/M1C2TsP/main-Hero-Poster-Maxley-3.png"
             className="w-full"
           />
@@ -21,10 +20,9 @@ function Hero() {
           </div>
         </div>
         <div id="slide2" className="carousel-item relative w-full">
-          <iframe
+         <iframe
             title="iframe1"
             src="https://streamable.com/e/bo5i5t"
-            frameborder="0"
             width="100%"
             height="100%"
             allowfullscreen
@@ -40,10 +38,9 @@ function Hero() {
           </div>
         </div>
         <div id="slide3" className="carousel-item relative w-full">
-          <iframe
+         <iframe
             title="iframetwo"
             src="https://streamable.com/e/mzr200"
-            frameborder="0"
             width="100%"
             height="100%"
             allowfullscreen
