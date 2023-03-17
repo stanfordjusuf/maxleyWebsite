@@ -51,11 +51,11 @@ export default function contact() {
               Operational Hours: 09.00 - 17.00 WIB
             </p>
             <br />
-              <a href="https://goo.gl/maps/SAxM51p66Yasbj2L9">
-                <button type="button" className="btn btn-warning">
-                  Check out our location!
-                </button>
-              </a>
+            <a href="https://goo.gl/maps/SAxM51p66Yasbj2L9">
+              <button type="button" className="btn btn-warning">
+                Check out our location!
+              </button>
+            </a>
             <br />
           </div>
         </div>
