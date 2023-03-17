@@ -83,7 +83,7 @@ const Footer = () => (
           Feedback
         </a>
       </Link>
-      <a className="link link-hover">Customer service: 081227762299</a>
+      <p className="link link-hover">Customer service: 081227762299</p>
     </div>
   </footer>
 );
