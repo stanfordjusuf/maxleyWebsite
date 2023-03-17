@@ -56,36 +56,6 @@ function Hero() {
           </div>
         </div>
       </div>
-      <div className="hero min-h-screen">
-        <div className="hero-content flex-col lg:flex-row-reverse">
-          <img
-            src="https://i.ibb.co/RjqLvsq/DSC-5809-HDR.jpg"
-            className="max-w-sm rounded-lg shadow-2xl"
-          />
-          <center>
-            <div>
-              <h1 className="text-5xl font-bold">Welcome to Maxley Suites!</h1>
-              <p className="py-6">
-                The best and biggest dormitory in BSD Serpong & Lippo Karawaci
-              </p>
-              <Link href="/about">
-                <button
-                  type="button"
-                  className="btn btn-warning"
-                  style={{ marginRight: '10px' }}
-                >
-                  About
-                </button>
-              </Link>
-              <Link href="/contact">
-                <button type="button" className="btn btn-warning">
-                  Contact
-                </button>
-              </Link>
-            </div>
-          </center>
-        </div>
-      </div>
       <div className="flex flex-col">
         <div>
           <div className="section about-section grid md:grid-cols-1 md:h-screen lg:grid-cols-2 w-full">
