@@ -72,7 +72,7 @@ function Hero() {
                 <button
                   type="button"
                   className="btn btn-warning"
-                  style={{ marginRight: "10px" }}
+                  style={{ marginRight: '10px' }}
                 >
                   About
                 </button>
