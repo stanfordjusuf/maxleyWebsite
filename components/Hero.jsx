@@ -5,111 +5,61 @@ import { Anchor } from 'react-bootstrap';
 function Hero() {
   return (
     <>
-      <div className="flex flex-col">
-        <div className="home-carousel carousel w-full">
-          <div id="home" className="carousel-item relative w-full">
-            <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-              <a href="#promotion2" className="btn btn-circle btn-ghost">
-                ❮
-              </a>
-
-              <div className="flex flex-col absolute items-center w-full h-full justify-center -z-50">
-                <h1
-                  className="text-4xl text-center md:text-6xl font-bold"
-                  style={{ color: 'white' }}
-                >
-                  #livingwithmaxley
-                </h1>
-                <h1 className="text-3xl text-center" style={{ color: 'white' }}>
-                  Hotel & Lodging
-                </h1>
-                <div className="flex flex-row mt-4 flex-wrap">
-                  <Link href="/about">
-                    <button
-                      type="button"
-                      className="btn btn-outline"
-                      style={{ color: 'black' }}
-                    >
-                      About Us
-                    </button>
-                  </Link>
-                  <Anchor>
-                    <Link href="#contact">
-                      <button
-                        type="button"
-                        className="btn btn-ghost"
-                        style={{ color: 'black' }}
-                      >
-                        Contact Us
-                      </button>
-                    </Link>
-                  </Anchor>
-                </div>
-              </div>
-
-              <a href="#promotion1" className="btn btn-circle btn-ghost">
-                ❯
-              </a>
-            </div>
-          </div>
-          <div id="promotion1" className="carousel-item relative w-full">
-            <h1
-              className="text-4xl text-center font-bold w-3/4 md:text-6xl"
-              style={{ color: 'white' }}
-            >
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
-              Group Package Promo!!! Invite your friends to live at Maxley!
-            </h1>
-            <iframe
-              title="iframetwo"
-              src="https://streamable.com/e/5ttmo8"
-              style={{
-                borderRadius: '5%',
-                paddingTop: '10px',
-                paddingBottom: '10px',
-                paddingRight: '10px',
-                paddingLeft: '10px',
-              }}
-              width="100%"
-              height="100%"
-              allowfullscreen
-              autoPlay
-            />
-          </div>
-          <div id="promotion2" className="carousel-item relative w-full">
-            <h1
-              className="text-4xl text-center font-bold w-3/4 md:text-6xl"
-              style={{ color: 'white' }}
-            >
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
-              Get FREE Merchandise SUGA BTS & Doorprize Lightstick BTS for
-              ARMY!!!
-            </h1>
-            <iframe
-              title="iframethree"
-              src="https://streamable.com/e/20kb55"
-              style={{
-                borderRadius: '5%',
-                paddingTop: '10px',
-                paddingBottom: '10px',
-                paddingRight: '10px',
-                paddingLeft: '10px',
-              }}
-              width="100%"
-              height="100%"
-              allowfullscreen
-              autoPlay
-            />
+       <div className="carousel w-full">
+        <div id="slide1" className="carousel-item relative w-full">
+          <img
+            src="https://i.ibb.co/M1C2TsP/main-Hero-Poster-Maxley-3.png"
+            className="w-full"
+          />
+          <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide4" className="btn btn-circle">
+              ❮
+            </a>
+            <a href="#slide2" className="btn btn-circle">
+              ❯
+            </a>
           </div>
         </div>
+        <div id="slide2" className="carousel-item relative w-full">
+          <iframe
+            title="iframe1"
+            src="https://streamable.com/e/bo5i5t"
+            frameborder="0"
+            width="100%"
+            height="100%"
+            allowfullscreen
+            className="w-full"
+          />
+          <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide1" className="btn btn-circle">
+              ❮
+            </a>
+            <a href="#slide3" className="btn btn-circle">
+              ❯
+            </a>
+          </div>
+        </div>
+        <div id="slide3" className="carousel-item relative w-full">
+          <iframe
+            title="iframetwo"
+            src="https://streamable.com/e/mzr200"
+            frameborder="0"
+            width="100%"
+            height="100%"
+            allowfullscreen
+            className="w-full"
+          />
+          <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide2" className="btn btn-circle">
+              ❮
+            </a>
+            <a href="#slide4" className="btn btn-circle">
+              ❯
+            </a>
+          </div>
+        </div>
+      </div>
+      <div className="flex flex-col">
         <div>
           <div className="section about-section grid md:grid-cols-1 md:h-screen lg:grid-cols-2 w-full">
             <div className='relative text-center justify-center items-center flex flex-col flex-1 bg-cover bg-[url("https://i.ibb.co/yYZ6rj5/Gym.jpg")] '>
