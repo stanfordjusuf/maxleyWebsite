@@ -24,12 +24,13 @@ function Hero() {
                 </h1>
                 <div className="flex flex-row mt-4 flex-wrap">
                   <button
+                    type="button"
                     className="btn btn-outline"
                     style={{ color: 'white' }}
                   >
                     About Us
                   </button>
-                  <button className="btn btn-ghost">Contact Us</button>
+                  <button type="button" className="btn btn-ghost">Contact Us</button>
                 </div>
               </div>
 
