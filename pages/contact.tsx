@@ -51,14 +51,6 @@ export default function contact() {
               Operational Hours: 09.00 - 17.00 WIB
             </p>
             <br />
-            <iframe
-              title="iframe_one"
-              src="shorturl.at/jmzY1"
-              width="600"
-              height="450"
-              style={{ border: 0 }}
-              loading="lazy"
-            />
             <br />
           </div>
         </div>
