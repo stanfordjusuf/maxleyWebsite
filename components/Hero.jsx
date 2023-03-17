@@ -4,59 +4,100 @@ import Link from 'next/link';
 function Hero() {
   return (
     <>
-      <div className="carousel w-full">
-        <div id="slide1" className="carousel-item relative w-full">
-          <img
-            src="https://i.ibb.co/M1C2TsP/main-Hero-Poster-Maxley-3.png"
-            className="w-full"
-          />
-          <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide4" className="btn btn-ghost btn-circle">
-              ❮
-            </a>
-            <a href="#slide2" className="btn btn-ghost btn-circle">
-              ❯
-            </a>
-          </div>
-        </div>
-        <div id="slide2" className="carousel-item relative w-full">
-          <iframe
-            title="iframe1"
-            src="https://streamable.com/e/bo5i5t"
-            width="100%"
-            height="100%"
-            allowfullscreen
-            className="w-full"
-          />
-          <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide1" className="btn btn-ghost btn-circle">
-              ❮
-            </a>
-            <a href="#slide3" className="btn btn-ghost btn-circle">
-              ❯
-            </a>
-          </div>
-        </div>
-        <div id="slide3" className="carousel-item relative w-full">
-          <iframe
-            title="iframetwo"
-            src="https://streamable.com/e/mzr200"
-            width="100%"
-            height="100%"
-            allowfullscreen
-            className="w-full"
-          />
-          <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide2" className="btn btn-ghost btn-circle">
-              ❮
-            </a>
-            <a href="#slide4" className="btn btn-ghost btn-circle">
-              ❯
-            </a>
-          </div>
-        </div>
-      </div>
       <div className="flex flex-col">
+        <div className="home-carousel carousel w-full">
+          <div id="home" className="carousel-item relative w-full">
+            <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#promotion2" className="btn btn-circle btn-ghost">
+                ❮
+              </a>
+
+              <div className="flex flex-col absolute items-center w-full h-full justify-center -z-50">
+                <h1
+                  className="text-4xl text-center md:text-6xl font-bold"
+                  style={{ color: 'white' }}
+                >
+                  #livingwithmaxley
+                </h1>
+                <h1 className="text-3xl text-center" style={{ color: 'white' }}>
+                  Hotel & Lodging
+                </h1>
+                <div className="flex flex-row mt-4 flex-wrap">
+                  <button
+                    className="btn btn-outline"
+                    style={{ color: 'white' }}
+                  >
+                    About Us
+                  </button>
+                  <button className="btn btn-ghost">Contact Us</button>
+                </div>
+              </div>
+
+              <a href="#promotion1" className="btn btn-circle btn-ghost">
+                ❯
+              </a>
+            </div>
+          </div>
+          <div
+            id="promotion1"
+            className="carousel-item relative w-full flex flex-col items-center"
+          >
+            <video
+              autoPlay
+              muted
+              loop
+              className="w-full absolute w-full h-full"
+            >
+              <source src="https://drive.google.com/uc?id=1iK8BnwXpUoFaU3HxasKab6YFRZpo0PP9&export=download" />
+            </video>
+            <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#home" className="btn btn-circle btn-ghost">
+                ❮
+              </a>
+              <div className="flex flex-col absolute h-full w-full justify-center items-center -z-50">
+                <h1
+                  className="text-4xl text-center font-bold md:text-6xl"
+                  style={{ color: 'white' }}
+                >
+                  Group Package Promo!
+                  <br />
+                  Invite your friends to living at Maxley!
+                </h1>
+              </div>
+
+              <a href="#promotion2" className="btn btn-circle btn-ghost">
+                ❯
+              </a>
+            </div>
+          </div>
+          <div id="promotion2" className="carousel-item relative w-full">
+            <video
+              autoPlay
+              muted
+              loop
+              className="w-full absolute w-full h-full"
+            >
+              <source src="https://drive.google.com/uc?id=1cKceFVj0_DCYB2t6HYv8mMc8lO7T4hhm&export=download" />
+            </video>
+            <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#promotion1" className="btn btn-circle btn-ghost">
+                ❮
+              </a>
+              <div className="flex flex-col absolute w-full h-full -z-50 justify-center items-center ">
+                <h1
+                  className="text-4xl text-center font-bold w-3/4 md:text-6xl"
+                  style={{ color: 'white' }}
+                >
+                  Get FREE Merchandise SUGA BTS & Doorprize Lightstick BTS for
+                  ARMY!!!
+                </h1>
+              </div>
+              <a href="#home" className="btn btn-circle btn-ghost">
+                ❯
+              </a>
+            </div>
+          </div>
+        </div>
         <div>
           <div className="section about-section grid md:grid-cols-1 md:h-screen lg:grid-cols-2 w-full">
             <div className='relative text-center justify-center items-center flex flex-col flex-1 bg-cover bg-[url("https://i.ibb.co/yYZ6rj5/Gym.jpg")] '>
