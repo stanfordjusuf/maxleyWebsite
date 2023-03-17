@@ -57,6 +57,16 @@ const Header = () => {
                     About
                   </a>
                 </Link>
+                <Link href="/rooms">
+                  <a href="md:float-right mt-2 align-middle ml-4 font-semibold cursor-pointer">
+                  Rooms
+                  </a>
+                </Link>
+                <Link href="/services">
+                  <a href="md:float-right mt-2 align-middle ml-4 font-semibold cursor-pointer">
+                  Services
+                  </a>
+                </Link>
                 <p>Blog</p>
                 {categories.map((category, index) => (
                   <Link key={index} href={`/category/${category.slug}`}>
