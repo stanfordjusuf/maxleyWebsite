@@ -1,5 +1,5 @@
-import React from "react";
-import Link from "next/link";
+import React from 'react';
+import Link from 'next/link';
 
 function Hero() {
   return (
@@ -111,7 +111,7 @@ function Hero() {
               </h1>
               <br />
               <p className="text-xl">
-                Email:{" "}
+                Email:{' '}
                 <a
                   href="mailto:maxleysuites@gmail.com"
                   className="hover:underline"
@@ -120,7 +120,7 @@ function Hero() {
                 </a>
               </p>
               <p className="text-xl">
-                BSD:{" "}
+                BSD:{' '}
                 <a
                   href="https://wa.me/+6288225924227"
                   className="hover:underline"
@@ -129,7 +129,7 @@ function Hero() {
                 </a>
               </p>
               <p className="text-xl">
-                Lippo:{" "}
+                Lippo:{' '}
                 <a
                   href="https://wa.me/+6285852293500"
                   className="hover:underline"
@@ -138,7 +138,7 @@ function Hero() {
                 </a>
               </p>
               <p className="text-xl">
-                Customer Service and Feedback:{" "}
+                Customer Service and Feedback:{' '}
                 <a
                   href="https://wa.me/+6281227762299"
                   className="hover:underline"
