@@ -23,14 +23,18 @@ function Hero() {
                   Hotel & Lodging
                 </h1>
                 <div className="flex flex-row mt-4 flex-wrap">
-                  <button
-                    type="button"
-                    className="btn btn-outline"
-                    style={{ color: 'white' }}
-                  >
-                    About Us
-                  </button>
-                  <button type="button" className="btn btn-ghost">Contact Us</button>
+                  <Link href="/about">
+                    <button
+                      type="button"
+                      className="btn btn-outline"
+                      style={{ color: 'white' }}
+                    >
+                      About Us
+                    </button>
+                  </Link>
+                  <Link href="/contact">
+                    <button type="button" className="btn btn-ghost">Contact Us</button>
+                  </Link>
                 </div>
               </div>
 
