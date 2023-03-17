@@ -59,12 +59,12 @@ const Header = () => {
                 </Link>
                 <Link href="/rooms">
                   <a href="md:float-right mt-2 align-middle ml-4 font-semibold cursor-pointer">
-                  Rooms
+                    Rooms
                   </a>
                 </Link>
                 <Link href="/services">
                   <a href="md:float-right mt-2 align-middle ml-4 font-semibold cursor-pointer">
-                  Services
+                    Services
                   </a>
                 </Link>
                 <p>Blog</p>
